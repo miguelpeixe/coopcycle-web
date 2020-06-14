@@ -51,18 +51,10 @@ final class OrderTaxesProcessor implements OrderProcessorInterface
 
             $taxCategory = $orderItem->getVariant()->getTaxCategory();
 
-            $adjustments = [];
-            if ($taxCategory->getCode() === 'GST_PST') {
-                $adjustments = array_map(
-                    fn($rate) => $this->createAdjustmentWithRate($orderItem, $rate),
-                    $taxCategory->getRates()->toArray()
-                );
-            } else {
-                $adjustments[] = $this->createAdjustmentWithRate(
-                    $orderItem,
-                    $this->taxRateResolver->resolve($orderItem->getVariant())
-                );
-            }
+            $adjustments = array_map(
+                fn($rate) => $this->createAdjustmentWithRate($orderItem, $rate),
+                $this->taxRateResolver->resolveMulti($orderItem->getVariant())->toArray()
+            );
 
             foreach ($adjustments as $adjustment) {
                 $orderItem->addAdjustment($adjustment);

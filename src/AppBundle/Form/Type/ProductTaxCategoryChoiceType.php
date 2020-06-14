@@ -54,11 +54,17 @@ class ProductTaxCategoryChoiceType extends AbstractType
             $variant = $this->productVariantFactory->createNew();
             $variant->setTaxCategory($taxCategory);
 
-            $rate = $this->taxRateResolver->resolve($variant);
+            $rates = $this->taxRateResolver->resolveMulti($variant);
+
+            $amount = array_reduce(
+                $rates->toArray(),
+                fn($carry, $rate) => $carry + $rate->getAmount(),
+                0.0
+            );
 
             return sprintf('%s (%d%%)',
                 $this->translator->trans($taxCategory->getName(), [], 'taxation'),
-                $rate->getAmount() * 100
+                $amount * 100
             );
         });
 
