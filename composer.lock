@@ -1750,6 +1750,20 @@
                 "sqlserver",
                 "sqlsrv"
             ],
+            "funding": [
+                {
+                    "url": "https://www.doctrine-project.org/sponsorship.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/phpdoctrine",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Fdbal",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-04-20T17:19:26+00:00"
         },
         {
@@ -1841,6 +1855,20 @@
                 "dbal",
                 "orm",
                 "persistence"
+            ],
+            "funding": [
+                {
+                    "url": "https://www.doctrine-project.org/sponsorship.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/phpdoctrine",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Fdoctrine-bundle",
+                    "type": "tidelift"
+                }
             ],
             "time": "2020-04-23T10:52:09+00:00"
         },
@@ -2390,6 +2418,20 @@
                 "database",
                 "orm"
             ],
+            "funding": [
+                {
+                    "url": "https://www.doctrine-project.org/sponsorship.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/phpdoctrine",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/doctrine/orm",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-03-19T06:41:02+00:00"
         },
         {
@@ -2472,6 +2514,20 @@
                 "odm",
                 "orm",
                 "persistence"
+            ],
+            "funding": [
+                {
+                    "url": "https://www.doctrine-project.org/sponsorship.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/phpdoctrine",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Fpersistence",
+                    "type": "tidelift"
+                }
             ],
             "time": "2020-03-21T15:13:52+00:00"
         },
@@ -2559,17 +2615,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-vendor-hardening.git",
-                "reference": "909bf65c92a5f6612950111eb0e015a25cd289f1"
+                "reference": "2d384e7d01bcba7706baa65ed155f652a7f29e31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-vendor-hardening/zipball/909bf65c92a5f6612950111eb0e015a25cd289f1",
-                "reference": "909bf65c92a5f6612950111eb0e015a25cd289f1",
+                "url": "https://api.github.com/repos/drupal/core-vendor-hardening/zipball/2d384e7d01bcba7706baa65ed155f652a7f29e31",
+                "reference": "2d384e7d01bcba7706baa65ed155f652a7f29e31",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.1",
-                "php": ">=7.2.3"
+                "composer-plugin-api": "^1.1 || ^2",
+                "php": ">=7.3.0"
             },
             "type": "composer-plugin",
             "extra": {
@@ -2589,7 +2645,7 @@
             "keywords": [
                 "drupal"
             ],
-            "time": "2020-01-16T10:35:54+00:00"
+            "time": "2020-05-05T12:56:43+00:00"
         },
         {
             "name": "edamov/pushok",
@@ -4337,6 +4393,12 @@
                 "faker",
                 "orm",
                 "symfony"
+            ],
+            "funding": [
+                {
+                    "url": "https://github.com/theofidry",
+                    "type": "github"
+                }
             ],
             "time": "2020-03-15T10:07:54+00:00"
         },
@@ -6628,6 +6690,12 @@
                 "google",
                 "sdk"
             ],
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/jeromegamez",
+                    "type": "github"
+                }
+            ],
             "time": "2020-03-16T18:19:54+00:00"
         },
         {
@@ -6916,6 +6984,12 @@
                 "laminas",
                 "zf"
             ],
+            "funding": [
+                {
+                    "url": "https://funding.communitybridge.org/projects/laminas-project",
+                    "type": "community_bridge"
+                }
+            ],
             "time": "2020-04-03T16:01:00+00:00"
         },
         {
@@ -7118,6 +7192,12 @@
                 "transform",
                 "write"
             ],
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/nyamsprod",
+                    "type": "github"
+                }
+            ],
             "time": "2020-03-17T15:15:35+00:00"
         },
         {
@@ -7251,6 +7331,12 @@
                 "s3",
                 "sftp",
                 "storage"
+            ],
+            "funding": [
+                {
+                    "url": "https://offset.earth/frankdejonge",
+                    "type": "other"
+                }
             ],
             "time": "2020-04-16T13:21:26+00:00"
         },
@@ -8659,16 +8745,16 @@
         },
         {
             "name": "notfloran/mjml-bundle",
-            "version": "v3.3.0",
+            "version": "v3.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/notFloran/mjml-bundle.git",
-                "reference": "ea97bb3c018c8d8a5eb95e7ce8ca6f703d01bdb6"
+                "reference": "10c9bc8a6a202b7a484ea36e8d90c43c4b0cc15a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/notFloran/mjml-bundle/zipball/ea97bb3c018c8d8a5eb95e7ce8ca6f703d01bdb6",
-                "reference": "ea97bb3c018c8d8a5eb95e7ce8ca6f703d01bdb6",
+                "url": "https://api.github.com/repos/notFloran/mjml-bundle/zipball/10c9bc8a6a202b7a484ea36e8d90c43c4b0cc15a",
+                "reference": "10c9bc8a6a202b7a484ea36e8d90c43c4b0cc15a",
                 "shasum": ""
             },
             "require": {
@@ -8678,13 +8764,10 @@
                 "symfony/twig-bundle": "^3.4 || ^4.0 || ^5.0"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.16",
                 "matthiasnoback/symfony-config-test": "^4.1",
                 "phpstan/phpstan": "^0.12.0",
-                "phpunit/phpunit": "^7.0"
-            },
-            "suggest": {
-                "swiftmailer/swiftmailer": "Plugin to integrate MJML in SwiftMailer"
+                "phpunit/phpunit": "^7.0",
+                "symplify/easy-coding-standard": "^6.0|^7.0"
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -8707,7 +8790,7 @@
                 "email",
                 "mjml"
             ],
-            "time": "2019-12-08T09:26:49+00:00"
+            "time": "2020-04-26T17:52:29+00:00"
         },
         {
             "name": "nyholm/psr7",
@@ -9157,6 +9240,12 @@
                 "pagination",
                 "paginator",
                 "paging"
+            ],
+            "funding": [
+                {
+                    "url": "https://github.com/mbabker",
+                    "type": "github"
+                }
             ],
             "time": "2019-07-17T20:56:16+00:00"
         },
@@ -11327,6 +11416,15 @@
                 "log",
                 "logging",
                 "sentry"
+            ],
+            "funding": [
+                {
+                    "type": "custom"
+                },
+                {
+                    "url": "https://sentry.io/pricing/",
+                    "type": "custom"
+                }
             ],
             "time": "2020-03-06T09:24:53+00:00"
         },
@@ -14241,6 +14339,20 @@
                 "portable",
                 "shim"
             ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-03-09T19:04:49+00:00"
         },
         {
@@ -14451,6 +14563,20 @@
                 "polyfill",
                 "portable",
                 "shim"
+            ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
             ],
             "time": "2020-02-27T09:26:54+00:00"
         },
@@ -15079,6 +15205,20 @@
                 "unicode",
                 "utf-8",
                 "utf8"
+            ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
             ],
             "time": "2020-03-16T13:02:39+00:00"
         },
@@ -15915,6 +16055,24 @@
                 "ascii",
                 "clean",
                 "php"
+            ],
+            "funding": [
+                {
+                    "url": "https://www.paypal.me/moelleken",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/voku",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/voku",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/voku/portable-ascii",
+                    "type": "tidelift"
+                }
             ],
             "time": "2020-03-13T01:23:26+00:00"
         },
@@ -18832,6 +18990,20 @@
             ],
             "description": "Symfony PHPUnit Bridge",
             "homepage": "https://symfony.com",
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-04-28T17:58:55+00:00"
         },
         {
